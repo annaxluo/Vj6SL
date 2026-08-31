@@ -28,8 +28,7 @@ Example module tree:
 ├── gatk/4.5.0.0.lua
 ├── gffread/0.12.7.lua
 ├── subread/2.0.0.lua
-├── salmon/1.10.1.lua
-└── rnaseq-python/0.1.lua
+└── salmon/1.10.1.lua
 ```
 
 ## Software
@@ -46,5 +45,4 @@ Example module tree:
 | gffread | 0.12.7 | GTF/GFF processing and transcript extraction |
 | Subread | 2.0.0 | featureCounts |
 | Salmon | 1.10.1 | Transcript quantification |
-| rnaseq-python | 0.1 | Python helper environment for workflow scripts |
 

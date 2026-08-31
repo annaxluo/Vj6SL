@@ -85,10 +85,10 @@ flowchart LR
   - [Step 1: Run FastQC on raw FASTQ files](#step-1-run-fastqc-on-raw-fastq-files)
   - [Step 2: Trim adapters with Trimmomatic](#step-2-trim-adapters-with-trimmomatic)
   - [Step 3: Perform allele-specific alignment with STAR/WASP](#step-3-perform-allele-specific-alignment-with-starwasp)
-  - [Step 4: Allele-specific expression analysis](#step-4-allele-specific-expression-analysis)
-  - [Step 5: Differential exon usage analysis with DEXSeq](#step-5-differential-exon-usage-analysis-with-dexseq)
-  - [Step 6: Differential gene expression counting with featureCounts](#step-6-differential-gene-expression-counting-with-featurecounts)
-  - [Step 7: Transcript quantification with Salmon](#step-7-transcript-quantification-with-salmon)
+  - [Step 4: Allele-specific expression (ASE) analysis](#step-4-allele-specific-expression-ase-analysis)
+  - [Step 5. Differential exon usage (DEU) analysis using HTSeq and DEXSeq](#step-5-differential-exon-usage-deu-analysis-using-htseq-and-dexseq)
+  - [Step 6. Differential gene expression (DGE) analysis with FeatureCounts](#step-6-differential-gene-expression-dge-analysis-with-featurecounts)
+  - [Step 7. Differential transcript usage (DTU) analysis using Salmon and DRIMSeq](#step-7-differential-transcript-usage-dtu-analysis-using-salmon-and-drimseq)
 - [Notes](#notes)
 - [License](#license)
 
@@ -593,7 +593,7 @@ Rscript scripts/R/t4-4-2_ASE_allele-expr.R
 
 
 
-### Step 5. Differential exon usage analysis using HTSeq and DEXSeq
+### Step 5. Differential exon usage (DEU) analysis using HTSeq and DEXSeq
 
 #### Prepare DEXSeq annotation
 

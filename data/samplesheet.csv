@@ -1,0 +1,5 @@
+sample_id,bam_file,condition
+sample1,data/mouse/3_STAR_Alignment/sample1/sample1_Aligned.sortedByCoord.out.bam,Control
+sample2,data/mouse/3_STAR_Alignment/sample2/sample2_Aligned.sortedByCoord.out.bam,Control
+sample3,data/mouse/3_STAR_Alignment/sample3/sample3_Aligned.sortedByCoord.out.bam,Het
+sample4,data/mouse/3_STAR_Alignment/sample4/sample4_Aligned.sortedByCoord.out.bam,Het

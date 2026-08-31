@@ -1,0 +1,99 @@
+# Large sequencing files
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.cram
+*.bai
+*.crai
+
+# Variant files
+*.bcf
+*.tbi
+*.idx
+
+# Reference genome files
+*.fa
+*.fasta
+*.fna
+*.fa.gz
+*.fasta.gz
+*.dict
+*.fai
+*.gtf
+*.gtf.gz
+*.gff
+*.gff3
+
+# STAR index files
+Genome
+SA
+SAindex
+chrLength.txt
+chrName.txt
+chrNameLength.txt
+chrStart.txt
+exonGeTrInfo.tab
+exonInfo.tab
+geneInfo.tab
+genomeParameters.txt
+sjdbInfo.txt
+sjdbList*.tab
+transcriptInfo.tab
+
+# Pipeline output directories
+data/0_RawData/*
+data/1_FastQC/*
+data/2_Trimmed/*
+data/3_STAR_WASP/*
+data/4_ASE_Analysis/*
+data/5_DEXSeq/*
+data/6_FeatureCounts/*
+data/7_Salmon/*
+ref_data/*
+variant_files/*
+logs/*
+
+# keep files
+!**/.gitkeep
+
+# keep mock files
+!data/sample_list.txt
+!data/samplesheet.csv
+!variant_files/variant_list_mm39.vcf
+
+# Logs and temporary files
+*.out
+*.err
+*.log
+*.tmp
+*.temp
+
+# FastQC/MultiQC output
+*_fastqc.html
+*_fastqc.zip
+multiqc_data/
+multiqc_report.html
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Conda/env directories
+.conda/
+.env/
+venv/
+env/
+*_env/
+

@@ -1,0 +1,7 @@
+##fileformat=VCFv4.2
+##reference=GRCm39
+##contig=<ID=chr12,length=120092757>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+chr12	56746171	chr12:56746171C>T	C	T	.	PASS	.	GT	0/1
+chr12	107253264	chr12:107253264G>T	G	T	.	PASS	.	GT	0/1

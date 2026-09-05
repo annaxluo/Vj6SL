@@ -15,7 +15,7 @@
 
 set -euo pipefail
 module load conda/3-23.3.1
-conda activate seq3
+conda activate rnaseq
 
 # paths 
 BASE_DIR="${SLURM_SUBMIT_DIR:-$PWD}"

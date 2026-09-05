@@ -19,7 +19,7 @@ set -euo pipefail
 
 # modules
 module load conda/3-23.3.1
-conda activate seq3 
+conda activate rnaseq 
 module load fastqc/0.12.1
 
 # paths 
